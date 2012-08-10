@@ -37,10 +37,10 @@
 		<footer>
 			Footer <a href="#">link</a>
 		</footer>
-	</div> <!--! end of #wrapper -->
+	</div>
 
 	<!-- CSS browser selector and media query pollyfills -->
-	<script src="js/lib/pollyfills.min.js"></script><!-- css browser selector and media query pollyfills -->
+	<script src="js/lib/pollyfills.min.js"></script>
 	
 	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -58,12 +58,7 @@
 	    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
 	    g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
 	    s.parentNode.insertBefore(g,s)}(document,"script"));
-	  </script>
-
-	<!--[if lt IE 7 ]>
-		<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-		<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
-	<![endif]-->
+	</script>
 	
 </body>
 </html>
