@@ -12,6 +12,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	font-family: inherit;
 	vertical-align: baseline;
 }
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 /*------------------------------------------------------*/
 /* general */
@@ -25,7 +30,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 .left { float: left; }
 .right { float: right; }
 .clear { clear: both; }
-.hidden { display: none; }
+.hide { display: none; }
 :focus { outline: 0; } /* remember to define focus styles! */
 ::selection { background: #eec5bf; } /* Safari */
 ::-moz-selection { background: #eec5bf; } /* Firefox */
@@ -96,6 +101,6 @@ input:invalid, textarea:invalid { background-color: #f0dddd; }
 /*------------------------------------------------------*/
 /* clearfix */
 /*------------------------------------------------------*/
-.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:before, .clearfix:after { content: " "; display: table; }
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
