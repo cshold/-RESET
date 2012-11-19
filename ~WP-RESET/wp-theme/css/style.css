@@ -1,0 +1,178 @@
+/* 
+*
+* CSS - Koodo Blog
+* Created by @TaxiCanada (Carson Shold | @cshold)
+* Note: These advanced CSS selectors work back to IE7
+*
+*/
+
+/********************************************************/
+/* main layout */
+/********************************************************/
+body {
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+.center {
+	width: 945px;
+	margin: 0 auto;
+}
+.center>section {
+	float: left;
+	width: 620px;
+}
+
+/********************************************************/
+/* links */
+/********************************************************/
+a { color: #00e; }
+a:visited { color: #551a8b; }
+a:hover { color: #06e; }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0; }
+
+
+/********************************************************/
+/* typeography */
+/********************************************************/
+p {
+	padding-bottom: 1em;
+}
+
+
+/********************************************************/
+/* headers */
+/********************************************************/
+
+h1, h2, h3, h4 {
+	
+}
+h1 {
+	
+}
+h2 {
+	
+}
+h3 {
+	
+}
+h4 {
+	
+}
+
+/********************************************************/
+/* header */
+/********************************************************/
+body>header {
+	background: #111;
+	padding: 33px;
+	color: #ccc;
+}
+body>header h1 {
+	margin: 0;
+}
+body>header h1 a:link, body>header h1 a:visited {
+	text-decoration: none;
+	color: #ddd;
+}
+body>header h1 a:hover, body>header h1 a:active {
+	text-decoration: none;
+	color: #fff;
+}
+
+/********************************************************/
+/* navigation */
+/********************************************************/
+nav {
+	text-align: center;
+	clear: both;
+	}
+body>nav {
+	background: #ddd;
+	padding: 10px 0;
+}
+body>nav ul {
+	text-align: left;
+	margin: 0;
+}
+body>nav li {
+	margin-right: 20px;
+	font-weight: bold;
+	display: inline;
+}
+
+
+/********************************************************/
+/* posts */
+/********************************************************/
+article[id*=post-] {
+	padding: 10px 0;
+}
+article>header p,
+article>footer p {
+	font-style: italic;
+}
+article+nav {
+	font-weight: bold;
+}
+section>h1 {
+	padding-top: 10px;
+}
+
+
+/********************************************************/
+/* comments */
+/********************************************************/
+article[id*=comment-] {
+	margin: 15px 0;
+	padding: 10px;
+}
+article[id*=comment-] h4 {
+	margin: 0;
+}
+.alt {
+	border: 1px solid #ddd;
+	background: #eee;
+}
+form[method=post] label {
+	display: block;
+}
+form[method=post] input {
+	margin: 2px 0 12px 0;
+	display: block;
+}
+
+
+/********************************************************/
+/* side bar */
+/********************************************************/
+aside {
+	margin-top: 30px;
+	overflow: hidden;
+	width: 275px;
+	float: right;
+	clear: none;
+}
+aside li {
+	list-style: none;
+}
+aside li ul li {
+	list-style: disc outside;
+}
+
+
+/********************************************************/
+/* footer */
+/********************************************************/
+body>footer {
+	padding-top: 100px;
+	text-align: center;
+	overflow: hidden;
+	width: 100%;
+	clear: both;
+}
+
+
+/********************************************************/
+/* search */
+/********************************************************/
+label[for=s] { display: none; }
