@@ -1,0 +1,48 @@
+Local Environment
+--------------------------------------------------------------------------------
+Domain: local.dev
+
+MySQL server: localhost 
+MySQL db: local_db 
+MySQL user: root 
+MySQL pass: root
+
+
+Staging Environment
+--------------------------------------------------------------------------------
+Domain: 
+
+SFTP Server: 
+Username: 
+Password: 
+
+MySQL server: 
+MySQL db: 
+MySQL user: 
+MySQL pass: 
+MySQL admin: 
+
+
+Production Environment
+--------------------------------------------------------------------------------
+Domain: 
+
+SFTP Server: 
+Username: 
+Password: 
+
+MySQL server: 
+MySQL db: 
+MySQL user: 
+MySQL pass: 
+MySQL admin: 
+
+
+LOCALHOST & SVN
+--------------------------------------------------------------------------------
+svn+ssh://svn.taxi.ca/svn/client/project/
+
+GOOGLE ANALYTICS
+--------------------------------------------------------------------------------
+Live profile: XXXXXXX-X
+Staging profile: XXXXXXX-X

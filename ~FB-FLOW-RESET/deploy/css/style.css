@@ -1,0 +1,160 @@
+/* 
+*
+* CSS - McCain Red Skins
+* Created by @TAXICanada
+* Developed by @leatherface416 and @cshold
+*
+*/
+
+/*------------------------------------------------------*\
+	$Colours
+	
+	Yellow: #eae36d;
+	Blue: #004f85;
+	Red: #9e0a13
+\*------------------------------------------------------*/
+
+/*------------------------------------------------------*/
+/* main layout */
+/*------------------------------------------------------*/
+html,
+body {
+	overflow: hidden;
+	background: #fff;
+}
+.ie html,
+.ie body {
+	text-align: center;
+}
+
+.wrapper {
+	position: relative;
+	width: 810px;
+	margin: 0 auto;
+	overflow: visible;
+}
+
+/*------------------------------------------------------*/
+/* headers */
+/*------------------------------------------------------*/
+
+h1, h2, h3, h4 {
+	
+}
+h1 {
+	font-size: 2em;
+}
+h2 {
+	font-size: 1.5em;
+}
+h3 {
+	
+}
+h4 {
+	
+}
+
+
+/*------------------------------------------------------*/
+/* typography */
+/*------------------------------------------------------*/
+body {
+	font-family: sans-serif;
+	color: #333;
+}
+p {
+	padding-bottom: 1em;
+}
+
+
+/*------------------------------------------------------*/
+/* navigation */
+/*------------------------------------------------------*/
+nav {
+	
+}
+
+
+/*------------------------------------------------------*/
+/* footer */
+/*------------------------------------------------------*/
+footer {
+	
+}
+
+
+/*------------------------------------------------------*/
+/* contest entry form */
+/*------------------------------------------------------*/
+
+/* form elements */
+.form-container {
+	position: relative;
+}
+.form-container div {
+	position: relative;
+	height: 50px;
+}
+
+
+/* labels */
+form label {
+	display: block;
+	float: left;
+	clear: both;
+	width: 115px;
+}
+
+/* text inputs */
+section input[type="text"],
+section select {
+	width: 250px;
+}
+
+
+/* faux-checkboxes */
+div#checkbox-group {
+	clear: both;
+}
+div.checkbox {
+	padding-bottom: 10px;
+}
+div.checkbox.error {
+	color: red;
+}
+
+/* submit button */
+#form-submit {
+	float: left;
+	display: block;
+	background: #f6f6f6;
+	border: 1px solid #ccc;
+	padding: 1em;
+}
+
+/* form errors */
+.error-text {
+	display: none;
+	position: absolute;
+	left: 79px;
+	bottom: 6px;
+	font-size: 11px;
+}
+.form-right .error-text { left: 108px; }
+.error input[type="text"],
+.checkbox.error span {
+	background-color: #ffabab;
+	border: 1px solid #ff0302;
+}
+.error .error-text { display: block; }
+
+
+
+
+/*------------------------------------------------------*/
+/* section visibility */
+/*------------------------------------------------------*/
+.returning section.entry-wrap,
+section.spin-wrap { display: none; }
+
+.returning section.spin-wrap { display: block; }
