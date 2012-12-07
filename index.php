@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 
@@ -17,9 +17,8 @@
 	<meta property="og:description" content=""/>
 
 	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/queries.css">
+	<link rel="stylesheet" href="css/core.css">
+	<link rel="stylesheet" href="css/main.css">
 	
 </head>
 
@@ -31,7 +30,7 @@
 		</header>
 		
 		<div id="main">
-			Main
+			Main Content
 		</div>
 		
 		<footer>
@@ -39,7 +38,7 @@
 		</footer>
 	</div>
 
-	<!-- CSS browser selector and media query pollyfills -->
+	<!-- CSS browser selector, media query pollyfill, modernizer -->
 	<script src="js/lib/pollyfills.min.js"></script>
 	
 	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
@@ -54,10 +53,10 @@
 	</script>
 
 	<script>
-	    var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
-	    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
-	    g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
-	    s.parentNode.insertBefore(g,s)}(document,"script"));
+		var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
+		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+		g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+		s.parentNode.insertBefore(g,s)}(document,"script"));
 	</script>
 	
 </body>

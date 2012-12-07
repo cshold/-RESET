@@ -66,13 +66,6 @@ h1 {
     word-wrap:break-word;
     margin:0.8889em 0;
 }
-@media screen and (min-width:36em) {
-    h1 {
-        font-size:3em;
-        letter-spacing:-0.04167em;
-        margin:0.6667em 0;
-    }
-}
 h2,
 legend {
     color:#222;
@@ -80,21 +73,13 @@ legend {
     margin:1.3333em 0 0.6667em;
     padding-top:0.625em;
     border-top:1px solid #e0e0e0;
-    }
-    h2 a {
-        color:#222;
-        border-bottom:1px solid #ddd;
-    }
+}
 h3 {
     color:#222;
     font:500 1.3125em/1.1429 sans-serif;
     margin:1.1429em 0 0;
     border-top:0 none;
-    }
-    h3 a {
-        color:#222;
-        border-bottom:1px solid #ddd;
-    }
+}
 h4 {
     color:#444;
     font:600 1.125em/1.3334 sans-serif;
@@ -205,29 +190,26 @@ figcaption {
 ============================================================ */
 a {
     color:#06f;
-    border-bottom:1px solid rgba(0,102,255,0.25);
-    }
+}
     a:focus {
         outline:1px solid rgba(51,102,204,0.4);
     }
     a:hover,
     a:active {
         color:#39f;
-        border-bottom:1px solid rgba(51,153,255,0.25);
     }
     a:link, a:visited, a:hover {
-       -webkit-transition:all 0.2s ease;
-       -moz-transition:all 0.2s ease;
-       -o-transition:all 0.2s ease;
-        transition:all 0.2s ease;
+        -webkit-transition:all 0.2s ease;
+        -moz-transition   :all 0.2s ease;
+        -o-transition     :all 0.2s ease;
+        transition        :all 0.2s ease;
     }
     a:active {
-        color:#03c;
-        border-bottom:1px solid rgba(0,51,204,0.25);
-       -webkit-transition:none;
-       -moz-transition:none;
-       -o-transition:none;
-        transition:none;
+        color             :#03c;
+        -webkit-transition:none;
+        -moz-transition   :none;
+        -o-transition     :none;
+        transition        :none;
     }
 em, em a, i, cite, cite a {
     font:italic 400 1em/90% Georgia,serif;
@@ -470,7 +452,7 @@ input[type="submit"] {
     Alignment
 ============================================================ */
 /* Left */
-.pull-left {
+.float-left {
     float:left;
     }
     img.pull-left {
@@ -478,7 +460,7 @@ input[type="submit"] {
     }
 
 /* Right */
-.pull-right {
+.float-right {
     float:right;
     }
     img.pull-right {

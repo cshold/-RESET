@@ -20,7 +20,7 @@ body {
 	
 }
 .wrapper {
-	width: 960px;
+	max-width: 960px;
 	margin: 0 auto;
 }
 
@@ -32,3 +32,38 @@ a:visited { color: #551a8b; }
 a:hover { color: #06e; }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }*/
+
+
+
+
+/*------------------------------------------------------*/
+/* media queries */
+/*------------------------------------------------------*/
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+	body.debug::before{
+		content: "Full media query (768 < 979) fired";
+		font-weight: bold;
+		display: block;
+		text-align: center;
+		background: rgba(255,0,255, 0.5);   /* Semi-transparent yellow */
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 99;
+	}
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait to Mobile Landscape Size(devices and browsers) */
+@media only screen and (max-width: 479px) {}

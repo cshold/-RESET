@@ -15,6 +15,8 @@ window.reset = window.reset || {};
 			init: function () {
 				
 				this.setMobile();
+
+				$('a[href="#"]').on('click',function(e){e.preventDefault()});
 			},
 			setMobile: function () {
 				if ( $('html').hasClass('mobile') ) {
