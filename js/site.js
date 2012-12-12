@@ -43,6 +43,11 @@ window.reset = window.reset || {};
 						scales = [.25, 1.6];
 						document[addEvent](type, fix, true);
 					}
+
+					// run function on orientation change
+					window.onorientationchange = function() {
+						
+					};
 				}
 			}
 		}
