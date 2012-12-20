@@ -1,0 +1,92 @@
+/*------------------------------------------------------*/
+/* reset */
+/*------------------------------------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+/*------------------------------------------------------*/
+/* general */
+/*------------------------------------------------------*/
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body { margin: 0; font-size: 13px; line-height: 1.231; }
+body, button, input, select, textarea { font-family: sans-serif; color: #333; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+.ie7 img { -ms-interpolation-mode: bicubic; }
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+.hidden { display: none; }
+:focus { outline: 0; } /* remember to define focus styles! */
+::selection { background: #eec5bf; } /* Safari */
+::-moz-selection { background: #eec5bf; } /* Firefox */
+::-webkit-selection { background: #eec5bf; } /* Webkit */
+
+/*------------------------------------------------------*/
+/* typography */
+/*------------------------------------------------------*/
+b, strong { font-weight: bold; }
+em { font-style: italic; }
+sub, sup { font-size: 50%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; font: 11px consolas; padding: 5px 10px; background: #f4f4f4; border: solid #ccc 1px; }
+pre, code, kbd, samp { font-family: monospace, sans-serif; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+small { font-size: 85%; }
+
+/*------------------------------------------------------*/
+/* lists */
+/*------------------------------------------------------*/
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+/*------------------------------------------------------*/
+/* tables */
+/*------------------------------------------------------*/
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+/*------------------------------------------------------*/
+/* forms */
+/*------------------------------------------------------*/
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+label { cursor: pointer; }
+legend { border: 0; *margin-left: -7px; padding: 0; }
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; }
+button, input { line-height: normal; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+/* Colors for form validity */
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid { background-color: #f0dddd; }
+/* ie form overrides */
+.ie7 button, .ie7 input, .ie7 select, .ie7 textarea { vertical-align: middle; }
+.ie7 button, .ie7 input { overflow: visible; }
+.ie7 table button, .ie7 table input { overflow: auto; }
+.ie7 input[type=checkbox] { vertical-align: baseline; }
+.ie6 input { vertical-align: bottom; }
+.ie6 legend, ie7 legend { margin-left: -7px; }
+
+/*------------------------------------------------------*/
+/* clearfix */
+/*------------------------------------------------------*/
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
